@@ -45,10 +45,10 @@ module.exports.create = function(req, res){
         else{
             return res.redirect('back');
         }
-    })
+    });
 }
 
 // sign in and create the session for the user
 module.exports.createSession = function(req, res){
-    // TODO later
+    return res.redirect('/');
 }
