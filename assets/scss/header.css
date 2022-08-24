@@ -1,3 +1,22 @@
-a {
-  text-align: right;
+header {
+  height: 50px;
+  background-color: darkcyan;
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+}
+header span {
+  position: absolute;
+  right: 5%;
+}
+header span button {
+  height: 30px;
+  background-color: darkgreen;
+}
+header span button a {
+  color: white;
+  text-decoration: none;
+}
+header span button:hover {
+  background-color: darkblue;
 }/*# sourceMappingURL=header.css.map */
