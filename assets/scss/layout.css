@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  background-color: cyan;
+}
+
+body #layout-main {
+  height: 100%;
+}/*# sourceMappingURL=layout.css.map */
