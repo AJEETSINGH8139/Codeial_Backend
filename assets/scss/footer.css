@@ -4,6 +4,6 @@ footer {
   font-size: 30px;
   background-color: darkcyan;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
 }/*# sourceMappingURL=footer.css.map */
