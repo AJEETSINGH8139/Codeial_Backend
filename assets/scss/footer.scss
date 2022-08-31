@@ -1,9 +1,18 @@
-footer{
-    height: 50px;
-    width: 100%;
-    font-size: 30px;
-    background-color: darkcyan;
+#layout-footer{
     color: white;
-    position: fixed;
-    bottom: 0px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    background: darkgrey;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-start;
+
+    .footer-nav{
+        ul{
+            list-style: none;
+        }
+    }
 }

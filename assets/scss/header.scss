@@ -1,24 +1,35 @@
-header{
-    height: 50px;
-    background-color: darkcyan;
-    color: white;
-    font-size: 30px;
-    padding: 5px;
-    
-    span {
-        position: absolute;
-        right: 5%;
-        button {
-            height: 30px;
-            background-color: darkgreen;
-            a{
-                color: white;
-                text-decoration: none;
+#layout-header{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        background: #2196f3;
+        color: white;
+        box-shadow: 1px 1px 1px 1px lightgrey;
+
+        .mini-logo{
+            p{
+                margin: 5px;
+                font-size: 1.4rem;
+                font-weight: bold;
             }
         }
-        button:hover{
-            background-color: darkblue;
+
+        .auth-links{
+            ul{
+                margin: 5% 5px;
+                display: flex;
+                list-style: none;
+                li{
+                    margin-right: 10px;
+                }
+            }
         }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
     }
-    
 }
